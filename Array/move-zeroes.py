@@ -13,11 +13,3 @@ if __name__ == "__main__":
     print(sol.moveZeroes([0, 1, 0, 3, 12]))
 
     print(sol.moveZeroes([4,2,4,3,0,5,1,0,0,0]))
-
-    # print(sol.moveZeroes([0, 0, 1]))
-
-    # print(sol.moveZeroes([-1, 2, 3]))
-
-    # print(sol.moveZeroes([0]))
-
-
