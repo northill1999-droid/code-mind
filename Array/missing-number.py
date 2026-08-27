@@ -12,4 +12,3 @@ class Solution:
 if __name__ == "__main__":
     sol = Solution()
     print(sol.missingNumber([0,1]))
-
