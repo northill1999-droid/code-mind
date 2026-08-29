@@ -20,7 +20,7 @@ class Solution:
                     need_recall -= lst2.pop(0)
                 need_recall -= lst1.pop(0)
 
-            print(need_recall)
+            # print(need_recall)
             if need_recall != 0:
                 return False
 
@@ -31,3 +31,4 @@ if __name__ == "__main__":
     sol = Solution()
     print(sol.lemonadeChange([5,5,5,10,20])) 
     print(sol.lemonadeChange([5,5,10,10,20]))
+    
