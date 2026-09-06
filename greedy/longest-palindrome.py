@@ -1,5 +1,5 @@
 class Solution:
-    def longestPalindrome(self, s: str) -> str:
+    def longestPalindrome(self, s: str) -> int:
         count = {}
         for i in s:
             count[i] = count.get(i, 0) + 1
