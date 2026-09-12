@@ -1,3 +1,4 @@
+# https://leetcode.cn/problems/contains-duplicate-ii/
 from typing import List
 
 class Solution:

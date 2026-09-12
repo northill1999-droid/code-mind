@@ -1,3 +1,4 @@
+# https://leetcode.cn/problems/two-sum/
 class Solution:
     def towSum(self, nums: List[int], target: int) -> List[int]:
         lst = []

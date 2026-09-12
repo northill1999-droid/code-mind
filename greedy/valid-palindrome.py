@@ -1,3 +1,4 @@
+# https://leetcode.cn/problems/valid-palindrome/
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         def palindrome(lst):

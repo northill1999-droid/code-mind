@@ -1,3 +1,4 @@
+# https://leetcode.cn/problems/pascals-triangle/
 from typing import List
 
 class Solution:

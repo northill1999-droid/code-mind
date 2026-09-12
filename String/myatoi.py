@@ -1,3 +1,4 @@
+# https://leetcode.cn/problems/string-to-integer-atoi/
 class Solution:
     def myAtoi(self, s: str) -> int:  # my ASCLL to Integer
         s = s.strip()

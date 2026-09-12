@@ -1,3 +1,4 @@
+# https://leetcode.cn/problems/longest-palindrome/
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         count = {}
