@@ -4,12 +4,12 @@ from typing import List
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         lst = []
-        tag = -1
+        tag = []
         for i in nums2 if len(nums2) < len(nums1) else nums1:
             for index, j in enumerate(nums1 if len(nums1) > len(nums2) else nums2):
-                if i == j and index != tag:
+                if i == j and (index not in tag):
                     lst.append(i)
-                    tag = index
+                    tag.append(index)
                     break
 
         return lst
