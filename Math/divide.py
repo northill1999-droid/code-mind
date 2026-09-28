@@ -56,6 +56,7 @@ class Solution:
 
                 if mid == INT_MAX:
                     break
+
                 left = mid + 1
 
             else:
@@ -63,6 +64,4 @@ class Solution:
 
 
         return -ans if rev else ans
-    
-
             
