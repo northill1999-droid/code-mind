@@ -29,7 +29,7 @@ class Solution:
                     return hair.next
 
             nex = tail.next
-            head, tail = self.revers(head, tail)
+            head, tail = self.reverse(head, tail)
             pre.next = head
             tail.next = nex
             pre = tail
