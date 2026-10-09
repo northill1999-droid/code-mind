@@ -1,0 +1,20 @@
+# https://leetcode.cn/problems/jump-game-ii/solutions/?envType=problem-list-v2&envId=array
+
+from typing import List
+
+class Solution:
+    def jump(self, nums: List[int]) -> int:
+        position = len(nums) - 1
+        steps = 0
+
+        while position > 0:
+            for i in range(position):
+                if i + nums[i] >= position:
+                    position = i
+                    steps += 1
+
+                    break
+
+        return steps
+    
+        
