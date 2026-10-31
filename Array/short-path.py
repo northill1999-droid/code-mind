@@ -7,7 +7,7 @@ class Solution:
             g[x].append((y, w))
 
         dis = [[2**31 - 1] * (k + 1) for _ in range(n)]
-        # {最短路长度, 节点编号, 最后连续相同字母个数}
+        
         pq = []
 
         dis[0][1] = 0
