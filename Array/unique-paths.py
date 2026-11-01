@@ -5,8 +5,7 @@ class Solution:
         MOD = 10**9 + 7
         m, n = len(grid), len(grid[0])
 
-        # f[i][j][0]：通过向下移动进入 (i, j)
-        # f[i][j][1]：通过向右移动进入 (i, j)
+        
         f = [[[0, 0] for _ in range(n)] for _ in range(m)]
         f[0][0][0] = 1
 
